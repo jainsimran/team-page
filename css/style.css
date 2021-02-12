@@ -1,0 +1,17 @@
+.card {
+  border: 1px solid grey;
+}
+
+.card-image {
+  height: 10rem;
+}
+
+.card-image > img {
+  height: inherit;
+  width: 100%;
+}
+
+.card-desc {
+  padding: 0.5rem;
+  text-align: left;
+}
