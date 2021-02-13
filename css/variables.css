@@ -1,8 +1,9 @@
 :root {
-  --primary: black;
-  --grey: "242422";
+  --primary: #182363;
   --button-bg: #e54e5d;
   --text: #434544;
+  --light-grey: #ECECEC;
+  --white: #FFFFFF;
 }
 
 h1,
@@ -15,6 +16,8 @@ h4 {
 h1 {
     font-size: 1.75rem;
     line-height: 2.25rem;
+    background-color: var(--primary);
+    color: var(--white);
 }
 
 h2 {
