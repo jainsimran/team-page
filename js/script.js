@@ -14,7 +14,7 @@ function renderCoaches() {
                         <p class="text-center">${COACH_LIST[i].shortBio}</p>
                         <div class="d-block d-sm-block d-md-none">
                             <p id="gloriaLongDesp" class="collapsing text-center">${COACH_LIST[i].bio}</p>
-                            <button type="button" class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#gloriaLongDesp" aria-expanded="false" aria-controls="gloriaLongDesp"> </button>
+                            <button type="button" class="btn btn-primary btn-sm toggle-btn" data-toggle="collapse" data-target="#gloriaLongDesp" aria-expanded="false" aria-controls="gloriaLongDesp"> </button>
                         </div>
                         <div class="d-none d-md-block">
                             <button type="button" class="btn btn-primary btn-md" onClick="openModal(${i})">Read more</button>
