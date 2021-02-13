@@ -1,9 +1,10 @@
 :root {
-  --primary: #182363;
-  --button-bg: #e54e5d;
-  --text: #434544;
-  --light-grey: #ECECEC;
-  --white: #FFFFFF;
+  /* --primary: #182363; */
+    --primary: #00003b;
+    --secondary: #e54e5d;
+    --tertiary: #434544;
+    --light-grey: #ECECEC;
+    --white: #FFFFFF;
 }
 
 h1,
@@ -41,5 +42,5 @@ body {
     font-family: Helvetica;
     font-weight: 300;
     line-height: 1.5rem;
-    color: var(--text);
+    color: var(--tertiary);
 }
