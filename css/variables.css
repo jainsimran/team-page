@@ -1,0 +1,42 @@
+:root {
+  --primary: black;
+  --grey: "242422";
+  --button-bg: #e54e5d;
+  --text: #434544;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: -0.1px;
+}
+
+h1 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h4 {
+    font-size: 0.87rem;
+    line-height: 1.25rem;
+}
+
+body {
+    font-size: 0.9rem;
+    font-family: Helvetica;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--text);
+}
