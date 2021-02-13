@@ -53,80 +53,24 @@
       </div>
     </div>
     <!-- Team Coaches -->
-    <div class="row mt-2 mb-5">
+    <div class="row mt-2 mb-5" id="coach-list">
+    </div>
+  </div>
 
-      <div class="col-lg-3 col-xs-12 col-md-6 text-center mt-4">
-        <div class="card">
-          <div class="card-image px-3 pt-4 pb-1">
-            <img src="img/Headshot-Valerie_Bartlett.jpg" alt="Valerie Bartlett"/>
-          </div>
-          <div class="card-desc px-4 pb-4">
-            <h2 class="m-0">Valerie Bartlett</h2>
-            <p>valerie@queens.com</p>
-            <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button" class="btn btn-primary">Read more</button>
-          </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
         </div>
       </div>
-
-      <div class="col-lg-3 col-xs-12 col-md-6 text-center mt-4">
-        <div class="card">
-          <div class="card-image px-3 pt-4 pb-1">
-            <img src="img/Headshot-Valerie_Bartlett.jpg" />
-          </div>
-          <div class="card-desc px-4 pb-4">
-            <h2 class="m-0">Mireille Landry</h2>
-            <p>mireille@queens.com</p>
-            <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button" class="btn btn-primary">Read more</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-xs-12 col-md-6 text-center mt-4">
-        <div class="card">
-          <div class="card-image px-3 pt-4 pb-1">
-            <img src="img/Headshot-Valerie_Bartlett.jpg" />
-          </div>
-          <div class="card-desc px-4 pb-4">
-            <h2 class="m-0">Linda Melnick</h2>
-            <p>linda@queens.com</p>
-            <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button" class="btn btn-primary">Read more</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-xs-12 col-md-6 text-center mt-4">
-        <div class="card">
-          <div class="card-image px-3 pt-4 pb-1">
-            <img src="img/Headshot-Valerie_Bartlett.jpg" />
-          </div>
-          <div class="card-desc px-4 pb-4">
-            <h2 class="m-0">Kathy Patterson</h2>
-            <p>kathy@queens.com</p>
-            <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button" class="btn btn-primary">Read more</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-xs-12 col-md-6 text-center mt-4">
-        <div class="card">
-          <div class="card-image px-3 pt-4 pb-1">
-            <img src="img/Headshot-Valerie_Bartlett.jpg" />
-          </div>
-          <div class="card-desc px-4 pb-4">
-            <h2 class="m-0">Gloria Saccon</h2>
-            <p>gloria@queens.com</p>
-            <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p id="gloriaLongDesp" class="collapse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sitamet, consectetur adipiscing elit.</p>
-            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#gloriaLongDesp" aria-expanded="false" aria-controls="gloriaLongDesp">Read more</button>
-
-          </div>
-        </div>
-      </div>
-
     </div>
   </div>
   </main>
@@ -141,6 +85,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/data.js"></script>
   <script src="js/script.js"></script>
 
 </body>
