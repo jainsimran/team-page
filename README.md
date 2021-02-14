@@ -1,7 +1,7 @@
 # Smith School of Business - Web Developer - Coding Challenge by Simran Jain
 
 Team-Page is a coding challenge designed and developed by Simran Jain.
-Please open the _index.html_ file in any of the supported browsers to view the webpage.
+Please open the **index.html** file in any of the supported browsers to view the webpage.
 
 ## Technology Used
 
