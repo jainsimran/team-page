@@ -5,8 +5,8 @@ function renderCoaches() {
         $("#coach-list").append(
             `<div class="col-lg-4 col-xs-12 col-md-6 text-center mt-4">
                 <div class="card">
-                    <div class="card-image px-3 pt-4 pb-1">
-                        <img src="img/${COACH_LIST[i].image}" alt="${COACH_LIST[i].name}"/>
+                    <div class="px-3 pt-4 pb-1">
+                        <img class="card-image" src="img/${COACH_LIST[i].image}" alt="${COACH_LIST[i].name}" />
                     </div>
                     <div class="card-desc px-4 pb-4">
                         <h2 class="m-0">${COACH_LIST[i].name}</h2>
@@ -31,8 +31,8 @@ function openModal(index) {
     $('.modal-body').html(`
         <div class="container">
             <div class="row">
-                <div class="col-md-4 text-left">
-                    <img id="headshot-modal"src="img/${COACH_LIST[index].image}"/>
+                <div class="col-md-4 text-center">
+                    <img class="modal-image" id="headshot-modal"src="img/${COACH_LIST[index].image}"/>
                     <h3 class="m-0">${COACH_LIST[index].name}</h3>
                     <p>${COACH_LIST[index].email}</p>
                 </div>
