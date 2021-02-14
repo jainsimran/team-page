@@ -12,14 +12,14 @@ Besides HTML5, JavaScript, and CSS, I have used the following 3rd party librarie
 
 ## Design and Development
 
-Team page follows a responsive layout leveraging Bootstrap's grid syste.
+The team page follows a responsive layout leveraging Bootstrap's grid system.
 
 ### Accessibility
 
-I followed WCAG's AA guideline in accordance to Universtiy standards for accessibility support including
+I followed WCAG's AA guideline in accordance with the University standards for accessibility:
 
-- Used *aria* attributes such as *aria-label, **aria-describedby, **role* etc when needed.
-- Used accessible colord from the color pallette. I used [this website](https://webaim.org/resources/contrastchecker/) to ensure I picked the accessible colors.
+- Used *aria* attributes such as *aria-label, **aria-described by, **role* etc when needed.
+- Used accessible colors from the color palette. I used [this website](https://webaim.org/resources/contrastchecker/) to ensure I picked the accessible colors.
 - Used semantic HTML tags and also Bootstrap provides accessibility as well.
 - Ensured proper tabbing focus styling for keyboard use.
 
@@ -27,15 +27,15 @@ I followed WCAG's AA guideline in accordance to Universtiy standards for accessi
 
 Teams page is responsive on all layouts.
 
-- Used Grids to manipulate number of coach displayed in 1 row.
-- Different animation and display technique to *Read More* button on mobile and desktop.
-- Navigation is different on mobile and desktop, that comes for free with Bootstrap.
+- Used Grids to manipulate the number of coaches displayed in 1 row.
+- Different animation and display techniques to the **Read More** button on mobile and desktop.
+- Navigation is different on mobile and desktop, which comes for free with Bootstrap.
 
 ### Flexible Code
 
 Instead of hard-coding 5 professors in HTML file, I chose to model their information in following format in a data file:
 
-
+```
 {
     name: 'Valerie Bartlett',
     email: 'valerie@queensu.ca',
@@ -43,21 +43,21 @@ Instead of hard-coding 5 professors in HTML file, I chose to model their informa
     shortBio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     bio: 'Morbi orci quam, sodales a risus non, sagittis euismod enim. Integer efficitur dolor urna, a rhoncus odio posuere euismod. Integer finibus, massa id placerat mollis, sapien lectus convallis urna, vitae fermentum enim eros at mi. Nam non massa lacinia, efficitur quam tempus, tincidunt orci. Vestibulum convallis nibh placerat nisi tempus, sed dignissim tortor viverra. Praesent luctus nibh in mi volutpat, quis sagittis risus rutrum. Mauris placerat rhoncus nibh vel molestie. Phasellus quis vestibulum mauris. Aenean ut orci ullamcorper, dignissim lorem ac, ornare risus.'
 }
+```
 
-
-With this approach, my code can easily plugin with external datasource like an API, or CDN, or databases. Changing data is much easier now.
+With this approach, my code can easily plugin with external data source like an API, or CDN, or databases. Changing data is much easier now.
 
 ## Browser Support
 
-This project has been tested across the latest versions of following browsers:
+This project has been tested across the latest versions of the following browsers:
 
 - Chrome
-- Firefox
+- Firefoxw
 - Safari.
 
 ## Additional Notes
 
-I followed Smith's Brand standards with following exceptions.
+I followed Smith's Brand standards with the following exception:
 
 ### Rules for CSS - Naming Convention
 

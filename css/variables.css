@@ -1,12 +1,12 @@
 :root {
     --primary: #00003b;
+    --primary-light: #3b72c1;
     --secondary: #e54e5d;
+    --secondary-light: #f35b68;
     --tertiary: #434544;
     --grey-light: #ECECEC;
+    --grey-lighter: #f5f5f5;
     --white: #FFFFFF;
-    --footerBg: #f5f5f5;
-    --secondary-light: #f35b68;
-    --primary-light: #3b72c1;
 }
 
 h1,
