@@ -13,7 +13,7 @@ function renderCoaches() {
             `<div class="col-lg-4 col-xs-12 col-md-6 text-center mt-4">
                 <div class="card">
                     <div class="px-3 pt-4 pb-1">
-                        <img class="card-image" src="img/${COACH_LIST[i].image}" alt="${COACH_LIST[i].name}" />
+                        <img src="img/${COACH_LIST[i].image}" class="card-image" alt="${COACH_LIST[i].name}" />
                     </div>
                     <div class="card-desc px-4 pb-4">
                         <h2 class="m-0">${COACH_LIST[i].name}</h2>
@@ -43,7 +43,7 @@ function openModal(index) {
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-center">
-                    <img class="modal-image" id="headshot-modal"src="img/${COACH_LIST[index].image}"/>
+                    <img src="img/${COACH_LIST[index].image}" class="modal-image" id="headshot-modal"/>
                     <h3 class="m-0">${COACH_LIST[index].name}</h3>
                     <p>${COACH_LIST[index].email}</p>
                 </div>
