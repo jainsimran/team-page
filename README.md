@@ -3,6 +3,8 @@
 Team-Page is a coding challenge designed and developed by Simran Jain.
 Please open the **index.html** file in any of the supported browsers to view the webpage.
 
+Github Repo: https://github.com/jainsimran/team-page
+
 ## Technology Used
 
 Besides HTML5, JavaScript, and CSS, I have used the following 3rd party libraries as per the requirements.
