@@ -1,3 +1,8 @@
+.logo {
+  max-width: 25%;
+  height: auto;
+}
+
 .card {
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
   border-radius: 5px;
@@ -14,12 +19,11 @@
   border: none;
 }
 
-button.toggle-btn::before,
-button.toggle-btn.collapsed:before {
-  content:'Read more' ;
+button.btn-toggle.collapsed:before {
+  content: "Read more";
 }
-button.toggle-btn:not(.collapsed)::before {
-  content:'Read less' ;
+button.btn-toggle:not(.collapsed)::before {
+  content: "Read less";
 }
 
 .card-image > img {
@@ -28,9 +32,7 @@ button.toggle-btn:not(.collapsed)::before {
 }
 
 .card-desc {
-  /* padding: 1rem; */
   text-align: center;
-  /* color: var(--primary); */
 }
 
 .modal img {

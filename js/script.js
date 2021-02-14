@@ -13,8 +13,8 @@ function renderCoaches() {
                         <p>${COACH_LIST[i].email}</p>
                         <p class="text-center">${COACH_LIST[i].shortBio}</p>
                         <div class="d-block d-sm-block d-md-none">
-                            <p id="gloriaLongDesp" class="collapsing text-center">${COACH_LIST[i].bio}</p>
-                            <button type="button" class="btn btn-primary btn-sm toggle-btn" data-toggle="collapse" data-target="#gloriaLongDesp" aria-expanded="false" aria-controls="gloriaLongDesp"> </button>
+                            <p id="${COACH_LIST[i].email.split('@')[0]}" class="collapsing text-center">${COACH_LIST[i].bio}</p>
+                            <button type="button" class="btn btn-primary btn-sm collapsed btn-toggle" data-toggle="collapse" data-target="#${COACH_LIST[i].email.split('@')[0]}" aria-expanded="false" aria-controls="gloriaLongDesp"> </button>
                         </div>
                         <div class="d-none d-md-block">
                             <button type="button" class="btn btn-primary btn-md" onClick="openModal(${i})">Read more</button>
@@ -34,7 +34,7 @@ function openModal(index) {
                 <div class="col-md-4 text-left">
                     <img id="headshot-modal"src="img/${COACH_LIST[index].image}"/>
                     <h3 class="m-0">${COACH_LIST[index].name}</h3>
-                    <p>abcd@gmail.com</p>
+                    <p>${COACH_LIST[index].email}</p>
                 </div>
                 <div class="col-md-8 text-left">
                     <h4 class="text-left">${COACH_LIST[index].shortBio}</h4>
