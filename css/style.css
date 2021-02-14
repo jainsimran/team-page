@@ -23,7 +23,7 @@
 .btn:focus {
   background-color: var(--secondary-light) !important;
   border: none;
-  box-shadow: none !important;
+  box-shadow: 0 0 0 0.2rem var(--secondary) !important;
 }
 
 .btn:focus-visible,
