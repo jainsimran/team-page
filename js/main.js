@@ -1,5 +1,12 @@
+/** Render the coach's information on document ready. */
 $(document).ready(renderCoaches);
 
+/**
+ * Render the description for all coaches.
+ * The coaches data is modelled in data.js file.
+ * Instead of hard coding it in HTML file, this approach will give us flexibility to plugin data from
+ * any API or databases in future.
+ */
 function renderCoaches() {
     for (var i = 0; i < COACH_LIST.length; i++) {
         $("#coach-list").append(
@@ -19,7 +26,6 @@ function renderCoaches() {
                         <div class="d-none d-md-block">
                             <button type="button" class="btn btn-primary btn-md" onClick="openModal(${i})">Read more</button>
                         </div>
-
                     </div>
                 </div>
             </div>`
@@ -27,7 +33,12 @@ function renderCoaches() {
     }
 }
 
+/**
+ * Opens the modal window to render and display detailed bio of selected coach.
+ * @param {number} index - Index of the coach in the list that is selected.
+ */
 function openModal(index) {
+    /** Apend modal body with selected coach details */
     $('.modal-body').html(`
         <div class="container">
             <div class="row">
@@ -41,10 +52,14 @@ function openModal(index) {
                     <p>${COACH_LIST[index].bio}</p>
             </div>
         </div>
-     `);
+    `);
+    /** Show the modal window */
     $('.modal').modal('show');
 }
 
+/**
+ * Hides the modal window.
+ */
 function closeModal() {
     $('.modal').modal('hide');
 }
