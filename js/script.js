@@ -3,7 +3,7 @@ $(document).ready(renderCoaches);
 function renderCoaches() {
     for (var i = 0; i < COACH_LIST.length; i++) {
         $("#coach-list").append(
-            `<div class="col-lg-3 col-xs-12 col-md-6 text-center mt-4">
+            `<div class="col-lg-4 col-xs-12 col-md-6 text-center mt-4">
                 <div class="card">
                     <div class="card-image px-3 pt-4 pb-1">
                         <img src="img/${COACH_LIST[i].image}" alt="${COACH_LIST[i].name}"/>
