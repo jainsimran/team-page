@@ -1,7 +1,7 @@
 # Smith School of Business - Web Developer - Coding Challenge by Simran Jain
 
 Team-Page is a coding challenge designed and developed by Simran Jain.
-Please open the *index.html* file in any of the supported browsers to view the webpage.
+Please open the _index.html_ file in any of the supported browsers to view the webpage.
 
 ## Technology Used
 
@@ -18,7 +18,7 @@ The team page follows a responsive layout leveraging Bootstrap's grid system.
 
 I followed WCAG's AA guideline in accordance with the University standards for accessibility:
 
-- Used *aria* attributes such as *aria-label, **aria-described by, **role* etc when needed.
+- Used _aria_ attributes such as _aria-label, **aria-described by, **role_ etc when needed.
 - Used accessible colors from the color palette. I used [this website](https://webaim.org/resources/contrastchecker/) to ensure I picked the accessible colors.
 - Used semantic HTML tags and also Bootstrap provides accessibility as well.
 - Ensured proper tabbing focus styling for keyboard use.

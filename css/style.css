@@ -19,7 +19,7 @@
 }
 
 .btn:hover,
-.btn:active, 
+.btn:active,
 .btn:focus {
   background-color: var(--secondary-light) !important;
   border: none;
