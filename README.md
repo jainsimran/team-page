@@ -18,7 +18,7 @@ The team page follows a responsive layout leveraging Bootstrap's grid system.
 
 I followed WCAG's AA guideline in accordance with the University standards for accessibility:
 
-- Used _aria_ attributes such as _aria-label, **aria-described by, **role_ etc when needed.
+- Used **aria** attributes such as **aria-label**, **aria-described** by, **role** etc when needed.
 - Used accessible colors from the color palette. I used [this website](https://webaim.org/resources/contrastchecker/) to ensure I picked the accessible colors.
 - Used semantic HTML tags and also Bootstrap provides accessibility as well.
 - Ensured proper tabbing focus styling for keyboard use.
